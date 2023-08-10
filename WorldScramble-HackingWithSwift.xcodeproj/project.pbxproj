@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		FD77F8F12A839DA00028022F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77F8F02A839DA00028022F /* AppDelegate.swift */; };
 		FD77F8F32A839DA00028022F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77F8F22A839DA00028022F /* SceneDelegate.swift */; };
-		FD77F8F52A839DA00028022F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77F8F42A839DA00028022F /* ViewController.swift */; };
-		FD77F8F82A839DA00028022F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD77F8F62A839DA00028022F /* Main.storyboard */; };
 		FD77F8FA2A839DA10028022F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD77F8F92A839DA10028022F /* Assets.xcassets */; };
-		FD77F8FD2A839DA10028022F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD77F8FB2A839DA10028022F /* LaunchScreen.storyboard */; };
+		FD77F9072A83A3260028022F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77F9062A83A3260028022F /* HomeVC.swift */; };
+		FD77F9092A83A34B0028022F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77F9082A83A34B0028022F /* HomeViewModel.swift */; };
+		FD77F90B2A83A42C0028022F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD77F90A2A83A42C0028022F /* Home.storyboard */; };
+		FD77F90E2A83ADB80028022F /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD77F90D2A83ADB80028022F /* start.txt */; };
+		FD77F9122A83B3860028022F /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77F9112A83B3860028022F /* WordCell.swift */; };
+		FD77F9152A83B8910028022F /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77F9142A83B8910028022F /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD77F8ED2A839DA00028022F /* WorldScramble-HackingWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WorldScramble-HackingWithSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD77F8F02A839DA00028022F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD77F8F22A839DA00028022F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD77F8F42A839DA00028022F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FD77F8F72A839DA00028022F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD77F8F92A839DA10028022F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FD77F8FC2A839DA10028022F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD77F8FE2A839DA10028022F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD77F9062A83A3260028022F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		FD77F9082A83A34B0028022F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FD77F90A2A83A42C0028022F /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		FD77F90D2A83ADB80028022F /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		FD77F9112A83B3860028022F /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
+		FD77F9142A83B8910028022F /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,42 @@
 		FD77F8EF2A839DA00028022F /* WorldScramble-HackingWithSwift */ = {
 			isa = PBXGroup;
 			children = (
+				FD77F9132A83B8640028022F /* NavigationController */,
+				FD77F9042A83A2EA0028022F /* HomeVC */,
 				FD77F8F02A839DA00028022F /* AppDelegate.swift */,
 				FD77F8F22A839DA00028022F /* SceneDelegate.swift */,
-				FD77F8F42A839DA00028022F /* ViewController.swift */,
-				FD77F8F62A839DA00028022F /* Main.storyboard */,
 				FD77F8F92A839DA10028022F /* Assets.xcassets */,
-				FD77F8FB2A839DA10028022F /* LaunchScreen.storyboard */,
 				FD77F8FE2A839DA10028022F /* Info.plist */,
+				FD77F90D2A83ADB80028022F /* start.txt */,
 			);
 			path = "WorldScramble-HackingWithSwift";
+			sourceTree = "<group>";
+		};
+		FD77F9042A83A2EA0028022F /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				FD77F90C2A83AB790028022F /* HomeCell */,
+				FD77F9062A83A3260028022F /* HomeVC.swift */,
+				FD77F9082A83A34B0028022F /* HomeViewModel.swift */,
+				FD77F90A2A83A42C0028022F /* Home.storyboard */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		FD77F90C2A83AB790028022F /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				FD77F9112A83B3860028022F /* WordCell.swift */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		FD77F9132A83B8640028022F /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				FD77F9142A83B8910028022F /* NavigationController.swift */,
+			);
+			path = NavigationController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +158,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD77F8FD2A839DA10028022F /* LaunchScreen.storyboard in Resources */,
 				FD77F8FA2A839DA10028022F /* Assets.xcassets in Resources */,
-				FD77F8F82A839DA00028022F /* Main.storyboard in Resources */,
+				FD77F90E2A83ADB80028022F /* start.txt in Resources */,
+				FD77F90B2A83A42C0028022F /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +171,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD77F8F52A839DA00028022F /* ViewController.swift in Sources */,
+				FD77F9072A83A3260028022F /* HomeVC.swift in Sources */,
+				FD77F9152A83B8910028022F /* NavigationController.swift in Sources */,
 				FD77F8F12A839DA00028022F /* AppDelegate.swift in Sources */,
+				FD77F9122A83B3860028022F /* WordCell.swift in Sources */,
 				FD77F8F32A839DA00028022F /* SceneDelegate.swift in Sources */,
+				FD77F9092A83A34B0028022F /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		FD77F8F62A839DA00028022F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD77F8F72A839DA00028022F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FD77F8FB2A839DA10028022F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD77F8FC2A839DA10028022F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FD77F8FF2A839DA10028022F /* Debug */ = {
@@ -292,7 +309,6 @@
 				INFOPLIST_FILE = "WorldScramble-HackingWithSwift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +336,6 @@
 				INFOPLIST_FILE = "WorldScramble-HackingWithSwift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
